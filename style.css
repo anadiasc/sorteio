@@ -42,6 +42,10 @@ h1 {
     font-size: 180%;
 }
 
+.informacao_aluno {
+    margin: 1%;
+}
+
 .button {
     margin: 1%;
     padding-top: 0.5%;
@@ -54,9 +58,34 @@ h1 {
     border: unset;
 }
 
+button:hover {
+    background-color: #008cff;
+}
+
 .resultado {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+/*midia queries*/
+
+@media (max-width: 595px){
+    img {
+        width: 10%;
+        height: 10%;
+    }
+
+    .titulo__institucional {
+        font-size: 90%;
+    }
+    
+    #texto_nome1 {
+        font-size: 80%;
+    }
+
+    .button {
+        width: 30%;
+    }
 }

@@ -9,7 +9,7 @@ let hinosCancoes = {
 
 let qtd = 0;
 
-const buttonSorteio = document.querySelector('.button')
+const buttonSorteio = document.querySelector('.button');
 
 buttonSorteio.addEventListener('click', sortearHinosCancoes);
 
